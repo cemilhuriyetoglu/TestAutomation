@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="1">
+    <listeners>
+        <listener class-name="cemil_huriyetoglu_selenium.util.TestListener"/>
+    </listeners>
+    <test verbose="1" name="SeleniumTest">
+        <classes>
+            <class name="cemil_huriyetoglu_selenium.test.HomePageTests"/>
+            <class name="cemil_huriyetoglu_selenium.test.CareersPageTests"/>
+            <class name="cemil_huriyetoglu_selenium.test.QAPageTests"/>
+        </classes>
+    </test>
+</suite>

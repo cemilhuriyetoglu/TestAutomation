@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="4">
+    <listeners>
+        <listener class-name="base.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="ApiTest">
+        <classes>
+            <class name="testCases.CreatePet"/>
+            <class name="testCases.GetPet"/>
+            <class name="testCases.UpdatePet"/>
+            <class name="testCases.DeletePet"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,11 @@
+2025-02-17 01:50:10 INFO  PetStore API:26 - Add new pet to the store successful
+2025-02-17 01:50:11 INFO  PetStore API:26 - Add new pet to the store successful
+2025-02-17 01:50:11 INFO  PetStore API:26 - Add new pet to the store successful
+2025-02-17 01:50:11 INFO  PetStore API:26 - Add new pet to the store successful
+2025-02-17 01:50:17 INFO  PetStore API:44 - Update existing pet successful
+2025-02-17 01:50:17 INFO  PetStore API:48 - Get existing pet
+2025-02-17 01:50:18 INFO  PetStore API:48 - Delete existing pet
+2025-02-17 01:50:18 INFO  PetStore API:50 - Add new pet to the store with invalid petId
+2025-02-17 01:50:18 INFO  PetStore API:61 - Delete pet with invalid pet id
+2025-02-17 01:50:19 INFO  PetStore API:73 - Add new pet to the store with empty body
+2025-02-17 01:50:19 INFO  PetStore API:64 - Get pet with invalid pet_id
